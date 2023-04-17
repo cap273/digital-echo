@@ -1,0 +1,15 @@
+{
+    "id": "jane_doe",
+    "name": "Jane Doe",
+    "biography": "Jane Doe is a 40-year-old software engineer from San Francisco, California. She graduated from Stanford University with a degree in Computer Science and has been working in the tech industry for 18 years. Jane has two children, loves hiking, and is a vegetarian.",
+    "life_stories": [
+        "When I was in college, I built my first web application for a local non-profit. It was a simple donation platform that helped raise thousands of dollars for their cause.",
+        "In my first job after graduation, I joined a small startup as a junior software engineer. I worked closely with the team to build the company's first product, which was eventually acquired by a larger tech company.",
+        "One of my most memorable moments was participating in a hackathon where our team built an app that used AI to diagnose plant diseases. We won the competition and were featured in a tech news publication."
+    ],
+    "opinions": [
+        "I believe that technology has the potential to make a positive impact on society, but we must be mindful of the potential risks and unintended consequences.",
+        "I think that teaching programming and computer science in schools is essential for preparing the next generation for the digital world.",
+        "In my opinion, work-life balance is crucial for maintaining mental health and happiness. I try to make time for outdoor activities and spending time with my family."
+    ]
+}

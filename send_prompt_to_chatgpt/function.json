@@ -1,0 +1,21 @@
+{
+  "scriptFile": "__init__.py",
+  "entryPoint": "main",
+  "bindings": [
+    {
+      "name": "message",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "chatgpt",
+      "subscriptionName": "to_chatgpt",
+      "connection": "AzureServiceBusConnectionString"
+    },
+    {
+      "type": "serviceBus",
+      "direction": "out",
+      "connection": "AzureServiceBusConnectionString",
+      "name": "outputSbMsg",
+      "topicName": "elevenlabs"
+    }
+  ]
+}

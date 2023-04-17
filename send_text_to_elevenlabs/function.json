@@ -1,0 +1,14 @@
+{
+  "scriptFile": "__init__.py",
+  "entryPoint": "main",
+  "bindings": [
+    {
+      "name": "message",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "elevenlabs",
+      "subscriptionName": "to_elevenlabs",
+      "connection": "AzureServiceBusConnectionString"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://chatgptstorage57382.blob.core.windows.net/static/1.png" alt="Person Photo" id="person-photo">
+        <select id="persona-id" name="persona_id" onchange="update_photo()">
+            <option value="1">Jane Doe</option>
+            <option value="2">Carlos Patiño</option>
+            <!-- Add more persona options here -->
+        </select>
+        <div class="prompt-form-box">
+            <div id="prompt-form">
+                <label for="text-prompt">Enter your prompt:</label>
+                <input type="text" id="text-prompt" name="text_prompt" required>
+                <button type="button" onclick="submit_prompt()">Submit</button>
+            </div>
+        </div>
+        <div id="loading" style="display:none;"><img src="https://chatgptstorage57382.blob.core.windows.net/static/loading.gif" alt="Loading"></div>
+        <audio id="audio-player" controls style="display:none;"></audio>
+    </div>
+</body>
+</html>
